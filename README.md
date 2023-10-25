@@ -1,6 +1,6 @@
 # Synthy Construction Dataset: A Synthetic Dataset for Construction Sites Indoor Environments
 
-If you find the SConstruct dataset useful for your work, please cite:
+If you find the Synthy Construction Dataset useful for your work, please cite:
 ```
 @article{synthyconstruction2024
   author    = {Anonymous},
