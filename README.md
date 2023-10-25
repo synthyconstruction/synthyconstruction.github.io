@@ -1,4 +1,4 @@
-# SConstruct Dataset: A Synthetic Dataset for Construction Sites Indoor Environments
+# Synthy Construction Dataset: A Synthetic Dataset for Construction Sites Indoor Environments
 
 If you find the SConstruct dataset useful for your work, please cite:
 ```
