@@ -2,8 +2,8 @@
 
 If you find the SConstruct dataset useful for your work, please cite:
 ```
-@article{nunezmorales2024sconstruct
-  author    = {Nunez-Morales, Juan D. and Golparvar-Fard, Mani},
+@article{synthyconstruction2024
+  author    = {Anonymous},
   title     = {SConstruct: A Visual Synthetic Dataset for the Under-Construction Environment},
   journal   = {TBD},
   year      = {2024},
