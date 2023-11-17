@@ -128,31 +128,31 @@
             for indoor scenes of construction sites under active construction.
           </p>
           <p>
-            The construction industry has continuously benefited from the advancements in computer vision 
-            over the last decade. Despite the existing different data structures that any typical project 
-            handles, vision-based information has created a wide range of commercial applications that have 
-            varied from safety and hazard detections to optimization of construction activities and, more 
-            recently, the comparison of as-built against plan documents. However, the repeatability of patterns, 
-            numerous non-relevant objects visible in scenes, and significant occlusions make under-construction 
-            scenes a significant challenge for scaling one-shot learning and unsupervised learning techniques. 
+            Over the last decade, many design, construction, operation, and maintenance applications in the 
+            built environment have benefited from advancements in computer vision. However, scaling these 
+            applications and their one-shot, supervised, and unsupervised learning techniques to real-world 
+            environments --particularly those under construction-- has been a constant challenge. Specifically, 
+            training underlying models need (1) ground truth for inter and intra-class variability of objects; 
+            (2) variability in how images are taken; i.e., different camera locations, viewpoints, lighting, 
+            and occlusions; and (3) availability of both appearance and geometrical ground truth. 
           </p>
           <p>
-            To promote further advancements in computer vision applications for construction site monitoring, 
-            we build on the extensive work done in supervised learning and introduce the <span class="dnerf">Synthy Construction Dataset</span> 
-            , the largest supervised synthetic dataset for geometry-assisted semantic segmentation of 
-            under-construction environments. Through this dataset, we introduce 1M high-quality perspective 
-            images of indoor construction operations generated from a collection of 10 different Building 
-            Information Models, consisting of RGB-D images with surface normals at 480x480 resolution. We 
-            provide fully annotated scenes with up to 66 different classes that focus on states of work-in-progress 
-            of relevant construction elements for applications in progress monitoring and detecting partial progress. 
+            To unlock the potential of these techniques, we build on the extensive work in supervised learning 
+            and introduce the \textbf{Synthy Construction Dataset}, together with a procedural dataset generation 
+            pipeline that leverages CAD models through gaming engines. Our dataset is the largest supervised 
+            synthetic dataset for semantic segmentation of under-construction built environments, with collected 
+            geometry information, ideal for 3D reconstruction tasks using SfM and MVS. We introduce 500k 
+            high-quality perspective RGB-D images with surface normals at 480x480 resolution of indoor construction 
+            environments generated from a collection of 10 different Building Information Models, consisting of 
+            92 semantic classes of visual states of work-in-progress for building elements.
           </p>
-          
           <p>
-            The effectiveness of our dataset is validated by training and testing several popular transformer 
-            architecture encoders, reporting up to 30% improvements in metrics such as IoU, Accuracy, F1 Score, 
-            Precision, and Recall. Through our extensive experiments and ablation studies, we demonstrate the 
-            viability of using synthetic data from existing construction project documents as a reliable source 
-            for learning robust visual features of construction scenes.
+            The effectiveness of our dataset is validated by fine-tuning a transformer architecture encoder, 
+            and tested on real data, reporting up to 30\% improvements in IoU, Accuracy, F1 Score, Precision, 
+            and Recall. We also provide ablation studies comparing performances when working with other synthetic 
+            datasets, and tested on other publicly available real datasets of the indoor scene environment, 
+            demonstrating the viability of our dataset as a reliable source for learning robust visual features 
+            of construction scenes.
           </p>
         </div>
       </div>
